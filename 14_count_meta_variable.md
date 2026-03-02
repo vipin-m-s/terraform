@@ -269,7 +269,7 @@ Resource actions are indicated with the following symbols:
 
 Terraform will perform the following actions:
 
-  # aws_iam_user.users[0] will be created
+   aws_iam_user.users[0] will be created
   + resource "aws_iam_user" "users" {
       + arn           = (known after apply)
       + force_destroy = false
@@ -280,7 +280,7 @@ Terraform will perform the following actions:
       + unique_id     = (known after apply)
     }
 
-  # aws_iam_user.users[1] will be created
+   aws_iam_user.users[1] will be created
   + resource "aws_iam_user" "users" {
       + arn           = (known after apply)
       + force_destroy = false
@@ -291,7 +291,7 @@ Terraform will perform the following actions:
       + unique_id     = (known after apply)
     }
 
-  # aws_iam_user.users[2] will be created
+   aws_iam_user.users[2] will be created
   + resource "aws_iam_user" "users" {
       + arn           = (known after apply)
       + force_destroy = false
