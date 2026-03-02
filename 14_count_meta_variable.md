@@ -259,6 +259,7 @@ resource "aws_iam_user" "users" {
   name = var.users[count.index]
   count = 3
 }%
+```
 
 ```                                                             
 $ terraform apply -auto-approve  
