@@ -311,7 +311,7 @@ aws_iam_user.users[0]: Creation complete after 1s [id=Alice]
 aws_iam_user.users[1]: Creation complete after 1s [id=Bob]
 
 Apply complete! Resources: 3 added, 0 changed, 0 destroyed.
-$ ```
+```
 
 
 <img width="1544" height="173" alt="Screenshot 2026-03-02 at 10 28 10 AM" src="https://github.com/user-attachments/assets/cae2d7a8-cb69-42d7-9097-1706234dc173" />
