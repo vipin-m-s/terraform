@@ -55,9 +55,27 @@ module "ec2" {
     source = "github.com/modules/ec2"
 }
 
-# Example4 - http urls
+### Example4 - http urls
 
 module "ec2" {
     source = "http://example/ec2.zip"
 }
 
+# Local path modules
+
+module "ec2" {
+    source = "../../modules/ec2"
+}
+
+➜  terraform tree
+.
+├── modules
+│   ├── ec2
+│   │   └── main.tf
+│   └── sg
+├── teams
+│   ├── A
+│   │   ├── main.tf
+│   │   ├── terraform.tfstate
+│   │   └── terraform.tfstate.backup
+│   └── B
